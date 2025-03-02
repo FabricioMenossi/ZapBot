@@ -1,4 +1,4 @@
-reflex==0.7.1
+reflex>=0.7.1
 python-dotenv==1.0.1
 reflex-local-auth==0.2.2
 SQLAlchemy==2.0.36
