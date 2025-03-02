@@ -21,5 +21,3 @@ frontend.zip
 poetry.lock
 venv/
 .env
-
-.env
