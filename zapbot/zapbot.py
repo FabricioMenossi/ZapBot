@@ -19,6 +19,9 @@ def index() -> rx.Component:
         spacing="0",
     )
 
+async def api_test(item_id: int):
+    return {"minha resposta": item_id} 
+
 
 # Add state and page to the app.
 app = rx.App(
@@ -28,3 +31,4 @@ app = rx.App(
     ),
 )
 app.add_page(index)
+app.api.add_api_route("/items/{item_id}", api_test)
