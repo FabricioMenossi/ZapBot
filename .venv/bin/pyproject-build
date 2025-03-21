@@ -1,4 +1,4 @@
-#!/home/fmenossi/ZapBot/.venv/bin/python3
+#!/home/fmenossi/P04_ZapBot/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
